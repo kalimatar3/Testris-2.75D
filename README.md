@@ -35,7 +35,7 @@ A casual mobile puzzle game developed with Unity.
 
 1. Clone repository
 
-git clone [https://github.com/username/brick-space](https://github.com/kalimatar3/Testris-2.75D.git)
+git clone https://github.com/kalimatar3/Testris-2.75D.git
 
 2. Open with Unity Hub (Unity 6+)
 3. Open scene Assets/Scenes/GamePlay.unity
