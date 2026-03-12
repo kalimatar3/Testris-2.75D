@@ -29,6 +29,7 @@ A casual mobile puzzle game developed with Unity.
 - C#
 - DOTween
 - photon
+- Unity New input system
 
 ## How to Run
 
