@@ -12,7 +12,7 @@ public class BoardManager : MyBehaviour
     public BoardMode CurBoardMode;
     public bool CanChange;
     [SerializeField] protected BoardMode XY , YZ , YX , ZY;
-    [SerializeField] protected Boardmatrix board {get; private set;}
+    protected Boardmatrix board {get; private set;}
     public Boardmatrix Board => board;
     public Transform SpawnPoint;
     public Transform CamPoint;

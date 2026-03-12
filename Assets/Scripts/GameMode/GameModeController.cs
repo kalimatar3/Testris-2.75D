@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameModeController : MyBehaviour
 {
-    [SerializeField] protected GameModeManager gameModeManager {get;private set;}
+    protected GameModeManager gameModeManager {get;private set;}
     public GameModeManager GameModeManager  => gameModeManager;
     protected GameMode CurrentGameMode;
     protected override void LoadComponents() {

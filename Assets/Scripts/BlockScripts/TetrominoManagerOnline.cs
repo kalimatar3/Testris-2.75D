@@ -6,7 +6,7 @@ public class TetrominoManagerOnline : TetrominoManager
 {
     protected new static TetrominoManagerOnline instance;
     public new static TetrominoManagerOnline Instance { get => instance;}
-    [SerializeField] protected SpawnTetrominoOnline spawnTetrominoOnline {get; private set;}
+    protected SpawnTetrominoOnline spawnTetrominoOnline {get; private set;}
     public SpawnTetrominoOnline SpawnTetrominoOnline => this.spawnTetrominoOnline;
     protected override void Awake()
     {

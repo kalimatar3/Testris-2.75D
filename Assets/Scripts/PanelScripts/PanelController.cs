@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PanelController : MyBehaviour
 {
-    [SerializeField] protected PanelManager panelManager {get; private set;}
+    protected PanelManager panelManager {get; private set;}
     public PanelManager PanelManager => panelManager;
     protected override void LoadComponents() {
         base.LoadComponents();

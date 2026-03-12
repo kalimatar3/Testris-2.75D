@@ -4,9 +4,9 @@ public class GameModeManager : MyBehaviour
 {    
     protected static GameModeManager instance;
     public static GameModeManager Instance { get => instance;}
-    [SerializeField] protected GameModeController gameModeController {get ; private set;}
+    [SerializeField] protected GameModeController gameModeController;
     public GameModeController GameModeController => gameModeController;
-    [SerializeField] protected List<Transform> ListgameMode;
+    [SerializeField] protected List<Transform> ListgameMode = new List<Transform>();
     protected override void LoadComponents() {
         base.LoadComponents();
         this.LoadListGameMode();
