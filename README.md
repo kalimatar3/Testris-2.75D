@@ -1,4 +1,4 @@
-# Brick Space
+# Tetris 2.75D
 
 A casual mobile puzzle game developed with Unity.
 
